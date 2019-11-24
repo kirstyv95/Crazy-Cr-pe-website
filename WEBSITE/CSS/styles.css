@@ -49,13 +49,6 @@ ol{
   justify-content: space-evenly
 }
 
-li#lower{
-  margin-top: 7%;
-}
-li#lowest{
-  margin-bottom: 14%;
-}
-
 div.contrast{
   background-color: rgb(0,0,0);
   color: rgb(255,255,255)
