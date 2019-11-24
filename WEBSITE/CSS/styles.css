@@ -33,6 +33,43 @@
   padding-top: 20px;
 }
 
+.float_left {
+    float: left!important;
+}
+
+.float_right {
+    float: right!important;
+}
+
+.half_width {
+    width: 48%;
+}
+
+.spa_form_field {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #4c4c4c;
+    margin-left: 4vw
+}
+
+.form_label {
+    color: #333;
+    font-size: 14px;
+    -webkit-margin-after: 5px;
+    display: block;
+    margin-left: 4vw
+}
+
+.submit_button {
+    margin-left: 4vw
+    }
+
 body
 {
   color:rgb(49,58,69);
@@ -49,7 +86,8 @@ h1,h2 {
   font-family: cursive;
 }
 
-h1{font-size:4.5em;
+h1{
+  font-size:4.5em;
   text-align: center;
   font-family: Verdana;
 }
@@ -58,7 +96,6 @@ h2{
 }
 img{width: 100%
     }
-
 
 .container {
       position: relative;
@@ -70,35 +107,19 @@ p{
   text-align: center;
   width:90%;
   margin: 0;
-  font-size: 2em
+  font-size: 1em
 }
+
 a{
   color: rgb(0,0,0)
 }
-ol{
-  list-style:none;
-  padding:0;
-  margin-bottom: 10%;
-  font-size:3em;
-  display:flex;
-  justify-content: space-evenly
-}
 
-div.contrast{
-  background-color: rgb(0,0,0);
-  color: rgb(255,255,255)
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-li{
+#crazy{
   margin: 0 20px;
   transition:0.6s ease;
 }
 
-li:hover{
+#crazy:hover{
   font-size: 1.2em;
   transition: 0.6s ease;
 }

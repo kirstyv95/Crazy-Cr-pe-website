@@ -14,24 +14,64 @@
       <a href="About us.html">ABOUT US</a>
       <a href="Menu.html">MENU</a>
       <a href="Contact us.html">CONTACT US</a>
-      <a class="title" style="float:right"> Crazy Crepes</a>
 
       <h1>Contact Us</h1>
     </div>
 
-    <form role='form'>
-        <label for="email">Find out more</label>
-        <input type="text" name="email" >
-        <button class="btn btn-success" type="submit">Send</button>
-      </form>
-
-
-    <div id='social-buttons'>
-      <button class='btn btn-lg btn-twitter'>Twitter</button>
-      <button class='btn btn-lg btn-facebook'>Facebook</button>
-      <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+    <div>
+    <br><br><br><br>
     </div>
 
+    <div class="page_content_wrapper" style="min-height: 800px;">
+	    <div class="page_content">
+		    <div class="half_width float_left">
+			     <h2>Send Us A Message</h2>
+			     <p>You can send your message directly to our team using the form below.</p><br>
+			     <div id="contact_form_block">
+				      <form id="msg_form" class="" name="msg_form" method="POST" action="?">
+					       <span class="form_label">Your Name</span>
+					       <input type="text" class="full_width spa_form_field" name="customer_name" required="">
+
+					       <span class="form_label">Your Email Address</span>
+					       <input type="text" class="full_width spa_form_field" name="customer_email" required="">
+
+					       <span class="form_label">Your Phone Number (Optional)</span>
+					       <input type="text" class="full_width spa_form_field" name="customer_phone">
+
+					       <span class="form_label">Your Message</span>
+					       <textarea rows="10" class="full_width spa_form_field" name="customer_message" required=""></textarea>
+                 <br>
+					       <input type="submit" value="SUBMIT" class="submit_button" name="submit">
+
+				      </form>
+				      <br><br><br><br>
+			     </div>
+		    </div>
+
+		    <div class="half_width float_right">
+			     <h2>Call Our Team</h2>
+			     <p> Coming soon! </p>
+           <br>
+			     <h2>Email Us</h2>
+			     <p>crazycrepesbar@gmail.com</p>
+		    </div>
+
+			   <br><br><br><br><br>
+	     </div>
+    </div>
+
+    <div id="social_bar">
+      <form role='form'>
+        <span class="form_label" for="email">Sign up to our offers!</span>
+        <input type="text" class="full_width spa_form_field" name="email" >
+        <button class="btn btn-success submit_button" type="submit">Send</button>
+      </form>
+      <div id='social-buttons'>
+        <button class='btn btn-lg btn-twitter float_right'>Twitter</button>
+        <button class='btn btn-lg btn-facebook float_right'>Facebook</button>
+        <button class='btn btn-lg btn-pinterest float_right'>Pinterest</button>
+      </div>
+    </div>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   </body>
 
