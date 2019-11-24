@@ -1,8 +1,8 @@
 #navbar h1 {
   color: pink;
-  text-align: right;
+  text-align: left;
   max-height: 10vh;
-  padding-right: 5vw
+  padding-left: 2vw
 }
 
 #navbar {
@@ -12,7 +12,7 @@
 }
 
 #navbar a {
-  float: left;
+  float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
