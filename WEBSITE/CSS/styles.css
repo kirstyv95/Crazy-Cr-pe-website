@@ -2,13 +2,13 @@
   color: pink;
   text-align: left;
   max-height: 10vh;
-  padding-left: 2vw
+  padding-left: 1.5vw
 }
 
 #navbar {
   overflow: hidden;
   background-color: #333;
-  min-height: 14vh;
+  min-height: 12vh;
 }
 
 #navbar a {
@@ -31,6 +31,27 @@
 (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 20px;
+}
+
+.twobytwo {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 40%;
+}
+
+/* This is one way of adding borders,
+   if you *always* know that you have exactly 4 cells
+   aligned like this */
+.twobytwo:first-child {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.twobytwo:nth-child(2) {
+    border-bottom: 1px solid black;
+}
+.twobytwo:nth-child(3) {
+    border-right: 1px solid black;
 }
 
 .float_left {
@@ -70,20 +91,57 @@
     margin-left: 4vw
     }
 
-body
-{
-  color:rgb(49,58,69);
+.carousel {
+    margin-left: 2vw
 }
 
-div{
-  min-height: 50vh;
-  Width:100vw;
+#carouselIndicators {
+    display: flex;
+}
+
+header {
+  margin-left: 2vw
+}
+
+.center {
+  margin-left: 2vw auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+iframe {
+  max-width: 50vw;
+  margin: 0 auto;
+}
+
+.googlemaps {
+  margin-left: 5vw auto;
+  margin-right: 5vw auto;
+  max-width: 50vw;
+  padding: 30px
+}
+
+body {
+  color:rgb(49,58,69);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: pink;
+}
+
+text-block {
+  margin-left: 2vw;
+  padding: 1;
+}
+
+div {
+  Width: 95vw;
+  margin right: 2vw;
 }
 
 h1,h2 {
   text-align: center;
-  font-family: cursive;
+  font-family: cursive; /*this needs fixing*/
 }
 
 h1{
@@ -91,11 +149,14 @@ h1{
   text-align: center;
   font-family: Verdana;
 }
-h2{
+
+h2 {
   font-size: 2em;
 }
-img{width: 100%
-    }
+
+img {
+  width: 100%
+}
 
 .container {
       position: relative;
@@ -103,7 +164,7 @@ img{width: 100%
       color: white;
     }
 
-p{
+p {
   text-align: center;
   width:90%;
   margin: 0;
