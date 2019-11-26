@@ -9,10 +9,10 @@
 
   <body>
     <div id="navbar" class="sticky">
-      <a href="index.html">HOME </a>
-      <a href="About us.html">ABOUT US</a>
-      <a href="Menu.html">MENU</a>
       <a href="Contact us.html">CONTACT US</a>
+      <a href="Menu.html">MENU</a>
+      <a href="About us.html">ABOUT US</a>
+      <a href="index.html">HOME </a>
 
       <h1>Crazy Crêpe's Bar</h1>
     </div>
@@ -70,11 +70,18 @@ tempted to give up and do thumbnail images haha-->
         <li>Savour Sundays (10% off our savoury selection)</li>
     </div>
 
-    <div id='social-buttons'>
-      <button class='btn btn-lg btn-twitter'>Twitter</button>
-      <button class='btn btn-lg btn-facebook'>Facebook</button>
-      <button class='btn btn-lg btn-Instagram'>Instagram</button>
-      <button class='btn btn-lg btn-pinterest'>Pinterest</button>
+    <div id="social_bar">
+      <form role='form'>
+        <span class="form_label" for="email">Sign up to our offers!</span>
+        <input type="text" class="full_width spa_form_field" name="email" >
+        <button class="btn btn-success submit_button" type="submit">Send</button>
+      </form>
+      <div id='social-buttons'>
+        <button class='btn btn-lg btn-twitter float_right'>Twitter</button>
+        <button class='btn btn-lg btn-facebook float_right'>Facebook</button>
+        <button class='btn btn-lg btn-Instagram float_right'>Instagram</button>
+        <button class='btn btn-lg btn-pinterest float_right'>Pinterest</button>
+      </div>
     </div>
 
     <script src="../JS/bootstrap.min.js"> </script>

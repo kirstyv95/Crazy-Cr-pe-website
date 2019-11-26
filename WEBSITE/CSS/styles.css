@@ -127,31 +127,25 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: pink;
+  font-family: Georgia;
 }
 
-text-block {
-  margin-left: 2vw;
-  padding: 1;
+div.text-block {
+  margin-left: 60px;
+  padding: 10px;
 }
 
 div {
   Width: 95vw;
-  margin right: 2vw;
-}
-
-h1,h2 {
-  text-align: center;
-  font-family: cursive; /*this needs fixing*/
 }
 
 h1{
   font-size:4.5em;
   text-align: center;
-  font-family: Verdana;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 4em;
 }
 
 img {
@@ -169,6 +163,19 @@ p {
   width:90%;
   margin: 0;
   font-size: 1em
+}
+
+div.names {
+  margin-left: 70px;
+  font-size: 2em;
+  font-family: Georgia;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+div.text {
+  margin-left: 70px;
+  margin-top: 0px;
 }
 
 a{
